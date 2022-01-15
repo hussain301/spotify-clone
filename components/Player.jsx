@@ -112,6 +112,9 @@ const Player = () => {
           onClick={() => volume < 100 && setVolume(volume + 10)}
         />
       </div>
+      <p className='absolute text-xs text-center text-gray-500 bottom-1 right-8'>
+        Copyright &copy;2022 Hussain Nariwal
+      </p>
     </div>
   );
 };
